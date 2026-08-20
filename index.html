@@ -180,12 +180,20 @@
           <p>Tell us about your business, your goals, and what you want your website to do.</p>
         </div>
         
-       <form class="card contact-form">
-          <form action="https://formspree.io/f/xeajlyre" method="POST">
-          <input type="text" placeholder="Your name" aria-label="Your name" />
-          <input type="email" placeholder="Email address" aria-label="Email address" />
-          <textarea rows="5" placeholder="Project details" aria-label="Project details"></textarea>
-          <button type="submit" class="btn">Send Inquiry</button>
+       <form action="https://formspree.io/f/xeajlyre" method="POST">
+          <div>
+            <label for="name">Name</label>
+            <input type="text" id="name" name="name" required />
+          </div>
+          <div>
+            <label for="email">Email</label>
+            <input type="email" id="email" name="email" required />
+          </div>
+          <div>
+            <label for="message">Message</label>
+            <textarea id="message" name="message" required></textarea>
+          </div>
+          <button class="btn accent" type="submit">Send Message</button>
         </form>
 
          
