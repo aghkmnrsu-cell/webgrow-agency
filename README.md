@@ -15,5 +15,6 @@ Open `index.html` in a browser or use a local server.
 ## Customize
 - Replace text with your own agency content
 - Add project images in `assets/images`
-- Connect the contact form to Formspree, Netlify Forms, or your backend
-View The website :  https://aghkmnrsu-cell.github.io/webgrow-agency
+- Connect the contact form to Formspree, Netlify Forms, or your backend.
+View The website by clicking bellow :
+https://aghkmnrsu-cell.github.io/webgrow-agency
